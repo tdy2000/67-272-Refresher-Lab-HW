@@ -34,6 +34,32 @@
   },
   "Unit Tests": {
     "coverage": {
+      "/Users/yager730/Desktop/67-373/lab5-choretracker-starter/app/models/chore.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/yager730/Desktop/67-373/lab5-choretracker-starter/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/yager730/Desktop/67-373/lab5-choretracker-starter/app/models/task.rb": [
         1,
         null,
@@ -45,21 +71,8 @@
         null,
         1,
         null,
-        3,
-        2,
-        null
-      ],
-      "/Users/yager730/Desktop/67-373/lab5-choretracker-starter/app/models/application_record.rb": [
         1,
         1,
-        null
-      ],
-      "/Users/yager730/Desktop/67-373/lab5-choretracker-starter/app/models/chore.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
         null
       ],
       "/Users/yager730/Desktop/67-373/lab5-choretracker-starter/app/models/child.rb": [
@@ -331,6 +344,6 @@
         0
       ]
     },
-    "timestamp": 1612632516
+    "timestamp": 1612634526
   }
 }
