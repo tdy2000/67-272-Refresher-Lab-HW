@@ -34,4 +34,24 @@ class ChildTest < ActiveSupport::TestCase
     end
   end
 
+  context "Creating additional context" do
+    setup do
+      create_children
+      create_tasks
+      create_chores
+    end
+ 
+    teardown do
+      destroy_chores
+      destroy_tasks
+      destroy_children
+    end
+
+    should "ensure the points_earned method works properly" do
+      assert_equal 4, @alex.points_earned
+      assert_equal 1, @mark.points_earned
+    end
+
+  end
+
 end
